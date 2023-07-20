@@ -109,3 +109,7 @@ figure {
   left: 32rem;
   z-index: 999;
 }
+
+hr {
+  color: hsl(240, 5%, 91%);
+}
