@@ -74,6 +74,7 @@ figure {
 }
 
 .faq-question {
+  color: hsl(237, 12%, 33%);
   font-size: 1.4rem;
   font-weight: 400;
 
