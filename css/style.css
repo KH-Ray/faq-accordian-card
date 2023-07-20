@@ -1,0 +1,111 @@
+/*
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+.faq {
+  width: 88rem;
+  height: 44rem;
+  background-color: #fff;
+  position: relative;
+  padding: 2.4rem 4.8rem;
+  border-radius: 24px;
+  overflow: hidden;
+
+  justify-content: center;
+  align-items: center;
+}
+
+/* LEFT SECTION */
+.left {
+  justify-self: center;
+  position: relative;
+}
+
+.bg-pattern-desktop {
+  height: 48rem;
+  top: -15%;
+  left: -25%;
+  position: absolute;
+  z-index: 0;
+}
+
+.illustration-woman-online-desktop {
+  transform: translateX(-25%);
+}
+
+.illustration-woman-online-mobile {
+  display: none;
+}
+
+figure {
+  position: relative;
+}
+
+.illustration-box-desktop {
+  position: absolute;
+  z-index: 999;
+  transform: translate(-50%, -25%);
+}
+
+/* RIGHT SECTION */
+
+.right {
+  margin-top: 4.8rem;
+  margin-left: -6.4rem;
+}
+
+.faq-title {
+  position: absolute;
+  top: 4.4rem;
+  font-size: 3rem;
+  margin-bottom: 2.4rem;
+}
+
+.faq-questions {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.faq-question {
+  font-size: 1.4rem;
+  font-weight: 400;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-question:hover {
+  cursor: pointer;
+  color: hsl(14, 88%, 65%);
+}
+
+.faq-answers {
+  color: hsl(240, 6%, 50%) !important;
+  font-size: 1.2rem;
+  font-weight: 400 !important;
+  line-height: 1.4;
+  margin-top: 0.8rem;
+}
+
+.icon-arrow {
+  height: 1rem;
+}
+
+.icon-arrow:hover {
+  cursor: pointer;
+}
+
+/* BOX IMAGE */
+.box-image {
+  position: absolute;
+  top: 20rem;
+  left: 32rem;
+  z-index: 999;
+}
