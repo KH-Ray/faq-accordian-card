@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/KH-Ray/faq-accordian-card](https://github.com/KH-Ray/faq-accordian-card)
+- Live Site URL: [https://kh-ray.github.io/faq-accordian-card/](https://kh-ray.github.io/faq-accordian-card/)
 
 ## My process
 
